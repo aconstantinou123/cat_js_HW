@@ -52,34 +52,3 @@ var addCat = function (catArray) {
 
 document.addEventListener("DOMContentLoaded", app);
 
-// var addQuote = function (quotesArray) {
-//     var section = document.getElementById("quotes");
-//     for(let quote of quotesArray){
-//         let article = createArticle(section);
-//         let blockQuote = createBlockQuote(article, quote.quote);
-//         createCite(blockQuote, quote.author);
-//     }
-//
-// }
-//
-// var createArticle = function (section) {
-//     let article = document.createElement("article");
-//     article.className = "quote";
-//     section.appendChild(article);
-//     return article;
-// }
-//
-// var createBlockQuote = function (article, text) {
-//     let blockQuote = document.createElement("blockquote");
-//     let textQuote = document.createTextNode(text);
-//     blockQuote.appendChild(textQuote);
-//     article.appendChild(blockQuote);
-//     return blockQuote;
-// }
-//
-// var createCite = function (blockQuote, text) {
-//     let cite = document.createElement("cite");
-//     let textAuthor = document.createTextNode(text);
-//     cite.appendChild(textAuthor);
-//     blockQuote.appendChild(cite);
-// }
